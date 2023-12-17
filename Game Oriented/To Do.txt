@@ -1,0 +1,20 @@
+﻿Hệ thống Nâng cấp:
+
+Tạo một hệ thống điểm kinh nghiệm cho người chơi để theo dõi tiến trình của họ trong trò chơi.
+Thiết kế giao diện người dùng để hiển thị điểm số, cấp độ và các tính năng nâng cấp có sẵn.
+Xây dựng các tính năng nâng cấp, chẳng hạn như cải thiện máu, tốc độ di chuyển, sức mạnh tấn công, và nhiều tính năng khác dựa trên điểm kinh nghiệm hoặc tài nguyên trong trò chơi.
+Thách thức phụ:
+
+Thiết kế nhiệm vụ phụ và câu đố cho mỗi màn chơi, bao gồm cách người chơi hoàn thành chúng.
+Tạo giao diện để hiển thị thông tin về các nhiệm vụ phụ và tiến trình của người chơi trong việc hoàn thành chúng.
+Đảm bảo rằng các nhiệm vụ phụ này cung cấp phần thưởng hoặc lợi ích cho người chơi, chẳng hạn như tiền tệ hoặc điểm kinh nghiệm.
+Cải thiện âm thanh và đồ họa:
+
+Sử dụng Unity Asset Store hoặc tạo riêng các tài nguyên đồ họa và âm thanh đẹp để cải thiện trải nghiệm người chơi.
+Áp dụng hiệu ứng âm thanh và đồ họa hấp dẫn cho các vũ khí, kỹ năng, và sự kiện trong trò chơi.
+Sử dụng ánh sáng và hiệu ứng hình ảnh để tạo ra môi trường đa dạng và ấn tượng.
+Các công việc liên quan đến gameplay:
+
+Xây dựng các round quái và boss cho mỗi màn chơi bằng cách sử dụng Unity's Scene Editor.
+Tạo các script để xử lý di chuyển và bắn của người chơi, và để quản lý vũ khí và sự kiện rơi xuống từ quái hoặc các sự kiện qua màn chơi.
+Lập trình hệ thống đánh giá, bao gồm việc tính toán thời gian qua màn và số lượng máu hoặc mạng còn lại để xác định số sao mà người chơi đạt được.

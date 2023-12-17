@@ -1,0 +1,31 @@
+﻿Game play cho Master P : 
+
+Game bao gồm nhiều màn chơi và đánh giá bằng cách 1,2 và 3 sao cho các màn
+1 màn chơi bao gồm :
+	- Hiệu ứng đầu game, hiệu ứng chuyển round quái
+	- Các round quái + boss qua các màn
+	- Player bao gồm di chuyển + và bắn
+	- Người chơi có thể nhặt được vàng trong game để mua đồ ngoài ngoài màn hình chính
+	- Pet 
+
+Hệ thống nâng cấp: 5/11/2023 Doing
+	- Tạo một hệ thống nâng cấp cho người chơi, cho phép họ cải thiện kỹ năng hoặc tính năng của nhân vật chính của họ dựa trên điểm kinh nghiệm hoặc tài nguyên thu thập được trong trò chơi.
+	- Tạo hiệu ứng khi nhặt được vật phẩm 
+	- Types of weapon :
+		Gun Done
+		Auto Hit Weapon (AHWeapon) Done
+		Knife Weapon Done
+		Shield 
+		GunButMorebullet Done
+		Healing Potion 
+		Speed Boost 
+		Area Weapon Done
+		Slow Weapon Done
+	
+		
+Thách thức phụ:
+	- Bổ sung thách thức phụ bên cạnh mục tiêu chính của mỗi màn chơi. Ví dụ, nhiệm vụ phụ để thu thập vật phẩm hoặc giải quyết một số câu đố sẽ tạo sự đa dạng và khó khăn hơn.
+
+
+Cải thiện âm thanh và đồ họa:
+	- Đảm bảo rằng âm thanh và đồ họa của trò chơi đủ ấn tượng để tạo ra một trải nghiệm hấp dẫn và hứng thú cho người chơi.
