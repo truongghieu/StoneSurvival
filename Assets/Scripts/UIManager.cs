@@ -65,7 +65,7 @@ public class UIManager : MonoBehaviour
 
     private void GameOverHandler()
     {
-        SoundManager.Play("Die");
+        SoundManager.Play("die");
         Time.timeScale = 0;
         closeButton.interactable = false;
         pausePanel.SetActive(true);
@@ -93,12 +93,13 @@ public class UIManager : MonoBehaviour
     
     public void GamePauseHandler(){
         Debug.Log("Pause from UIManager");
-        SoundManager.Play("ButtonSelect");
+        SoundManager.Play("pause");
         Time.timeScale = 0;
         OpenPannel(pausePanel);
     }
 
     void GameResumeHandler(){
+        SoundManager.Play("unpause");
         Time.timeScale = 1;
         ClosePanel(pausePanel);
     }
@@ -155,6 +156,7 @@ public class UIManager : MonoBehaviour
 
     void ButtonAddListener(Button btn,int type){
         btn.onClick.RemoveAllListeners();
+        btn.onClick.AddListener(() => {SoundManager.Play("buy");});
         btn.onClick.AddListener(ExitPannel);
         switch(type){
             case 0:
@@ -212,7 +214,7 @@ public class UIManager : MonoBehaviour
     }
 
     public void ExitPannel(){
-        SoundManager.Play("ButtonSelect");
+        SoundManager.Play("unpause");
         updatePanel.SetActive(false);
         Time.timeScale = 1;
         Btn1.onClick.RemoveAllListeners();
@@ -221,26 +223,26 @@ public class UIManager : MonoBehaviour
     }
 
     public void ClosePanel(GameObject pannel){
-        SoundManager.Play("ButtonSelect");
+        SoundManager.Play("click");
         pannel.SetActive(false);
         Time.timeScale = 1;
     }
 
     public void OpenPannel(GameObject pannel){
-        SoundManager.Play("ButtonSelect");
+        SoundManager.Play("click");
         pannel.SetActive(true);
         Time.timeScale = 0;
     }
     
     public void Restart(){
         closeButton.interactable = true;
-        SoundManager.Play("ButtonSelect");
+        SoundManager.Play("click");
         ClosePanel(pausePanel);
         OnGameRestartCanvas?.Invoke();
     }
     public void Home(){
         closeButton.interactable = true;
-        SoundManager.Play("ButtonSelect");
+        SoundManager.Play("click");
         ClosePanel(pausePanel);
         OnGameHomeCanvas?.Invoke();
     }

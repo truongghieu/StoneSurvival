@@ -68,7 +68,8 @@ public class SpawnSystem : MonoBehaviour
             yield return new WaitForSeconds(roundConfig.timeBetweenRound);
 
             OnSpawnStart?.Invoke();
-
+            // Sound play
+            SoundManager.Play("waveSpawn");
             for (int j = 0; j < roundConfig.waveQuantity; j++)
             {
                 SpawnEnemy(roundConfig.typeOfEnemy);

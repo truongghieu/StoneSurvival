@@ -361,6 +361,102 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &122637986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 0604fb294bbb43643a110369c58540b3, type: 3}
+  name: gameplay
+  track: 0
+  loop: 0
+  fadeIn: 0
+  timeToFadeIn: 0
+  controllerFadeIn: 0
+  fadeOut: 0
+  timeToFadeOut: 0
+  _3D: 0
+  v3Target: {x: 0, y: 0, z: 0}
+  tTarget: {fileID: 0}
+  followObject: 0
+  trigger: 0
+  stream: 0
+  targetForTrigger: {fileID: 0}
+  functionForTrigger: 
+  timeToTrigger: -50
+  timeInEditor: 0
+  isP: 0
+  language: 
+  allLenguages: []
+  languageIndexHolder: 0
+  URL: 
+  nameInResourceFolder: 
+  isStreamSound: 0
+  isResourceSound: 0
+  currentSource: {fileID: 0}
+  isPreviwing: 0
+  pauseEffect: 0
+  showCarac: 1
+  canShootEvent: 0
+  stopAt: 0
+  controllerFadeOut: 0
+  fadeOutTimer: 0
+  delayToPlay: 0
+--- !u!114 &146377329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: d8df540f1c5cb6f46bb90652ad5c6325, type: 3}
+  name: bg
+  track: 0
+  loop: 0
+  fadeIn: 0
+  timeToFadeIn: 0
+  controllerFadeIn: 0
+  fadeOut: 0
+  timeToFadeOut: 0
+  _3D: 0
+  v3Target: {x: 0, y: 0, z: 0}
+  tTarget: {fileID: 0}
+  followObject: 0
+  trigger: 0
+  stream: 0
+  targetForTrigger: {fileID: 0}
+  functionForTrigger: 
+  timeToTrigger: -50
+  timeInEditor: 0
+  isP: 0
+  language: 
+  allLenguages: []
+  languageIndexHolder: 0
+  URL: 
+  nameInResourceFolder: 
+  isStreamSound: 0
+  isResourceSound: 0
+  currentSource: {fileID: 0}
+  isPreviwing: 0
+  pauseEffect: 0
+  showCarac: 0
+  canShootEvent: 0
+  stopAt: 0
+  controllerFadeOut: 0
+  fadeOutTimer: 0
+  delayToPlay: 0
 --- !u!1 &156136370
 GameObject:
   m_ObjectHideFlags: 0
@@ -844,7 +940,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 200}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &254542296
+--- !u!114 &408419867
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -856,8 +952,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 6c1b32c80b3782f4d8a3a047f7c444e3, type: 3}
-  name: coin
+  clip: {fileID: 8300000, guid: 0bb7e51168d9d364b873a7a0fbda144f, type: 3}
+  name: unpause
   track: 1
   loop: 0
   fadeIn: 0
@@ -1249,6 +1345,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449845037}
   m_CullTransparentMesh: 1
+--- !u!114 &471519462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: f7c86a85bf2389843930fb4a18b18674, type: 3}
+  name: gameplay
+  track: 0
+  loop: 0
+  fadeIn: 0
+  timeToFadeIn: 0
+  controllerFadeIn: 0
+  fadeOut: 0
+  timeToFadeOut: 0
+  _3D: 0
+  v3Target: {x: 0, y: 0, z: 0}
+  tTarget: {fileID: 0}
+  followObject: 0
+  trigger: 0
+  stream: 0
+  targetForTrigger: {fileID: 0}
+  functionForTrigger: 
+  timeToTrigger: -50
+  timeInEditor: 0
+  isP: 0
+  language: 
+  allLenguages: []
+  languageIndexHolder: 0
+  URL: 
+  nameInResourceFolder: 
+  isStreamSound: 0
+  isResourceSound: 0
+  currentSource: {fileID: 0}
+  isPreviwing: 0
+  pauseEffect: 0
+  showCarac: 0
+  canShootEvent: 0
+  stopAt: 0
+  controllerFadeOut: 0
+  fadeOutTimer: 0
+  delayToPlay: 0
 --- !u!1 &492978601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,54 +1709,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &498414210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 9c7b009151b49964b897c38267b7700b, type: 3}
-  name: ButtonSelectt
-  track: 1
-  loop: 0
-  fadeIn: 0
-  timeToFadeIn: 0.1
-  controllerFadeIn: 0
-  fadeOut: 1
-  timeToFadeOut: 0.28
-  _3D: 0
-  v3Target: {x: 0, y: 0, z: 0}
-  tTarget: {fileID: 0}
-  followObject: 0
-  trigger: 0
-  stream: 0
-  targetForTrigger: {fileID: 0}
-  functionForTrigger: 
-  timeToTrigger: -50
-  timeInEditor: 0
-  isP: 0
-  language: 
-  allLenguages: []
-  languageIndexHolder: 0
-  URL: 
-  nameInResourceFolder: 
-  isStreamSound: 0
-  isResourceSound: 0
-  currentSource: {fileID: 0}
-  isPreviwing: 0
-  pauseEffect: 0
-  showCarac: 0
-  canShootEvent: 0
-  stopAt: 0
-  controllerFadeOut: 0
-  fadeOutTimer: 0
-  delayToPlay: 0
 --- !u!1 &530955847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1797,6 +1893,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &613129792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 35a850dbcc623ce40a68c39a0408729d, type: 3}
+  name: bg
+  track: 0
+  loop: 0
+  fadeIn: 0
+  timeToFadeIn: 0
+  controllerFadeIn: 0
+  fadeOut: 0
+  timeToFadeOut: 0
+  _3D: 0
+  v3Target: {x: 0, y: 0, z: 0}
+  tTarget: {fileID: 0}
+  followObject: 0
+  trigger: 0
+  stream: 0
+  targetForTrigger: {fileID: 0}
+  functionForTrigger: 
+  timeToTrigger: -50
+  timeInEditor: 0
+  isP: 0
+  language: 
+  allLenguages: []
+  languageIndexHolder: 0
+  URL: 
+  nameInResourceFolder: 
+  isStreamSound: 0
+  isResourceSound: 0
+  currentSource: {fileID: 0}
+  isPreviwing: 0
+  pauseEffect: 0
+  showCarac: 0
+  canShootEvent: 0
+  stopAt: 0
+  controllerFadeOut: 0
+  fadeOutTimer: 0
+  delayToPlay: 0
 --- !u!1 &643836598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,9 +2024,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1323982563}
-        m_TargetAssemblyTypeName: LoadSceneSystem, Assembly-CSharp
-        m_MethodName: LoadSceneAsync
+      - m_Target: {fileID: 606812673}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2237,54 +2381,6 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &942202783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 2ea91375433d03b4d92cb5d238219d63, type: 3}
-  name: powerUp
-  track: 0
-  loop: 0
-  fadeIn: 0
-  timeToFadeIn: 0
-  controllerFadeIn: 0
-  fadeOut: 0
-  timeToFadeOut: 0
-  _3D: 0
-  v3Target: {x: 0, y: 0, z: 0}
-  tTarget: {fileID: 0}
-  followObject: 0
-  trigger: 0
-  stream: 0
-  targetForTrigger: {fileID: 0}
-  functionForTrigger: 
-  timeToTrigger: -50
-  timeInEditor: 0
-  isP: 0
-  language: 
-  allLenguages: []
-  languageIndexHolder: 0
-  URL: 
-  nameInResourceFolder: 
-  isStreamSound: 0
-  isResourceSound: 0
-  currentSource: {fileID: 0}
-  isPreviwing: 0
-  pauseEffect: 0
-  showCarac: 1
-  canShootEvent: 0
-  stopAt: 0
-  controllerFadeOut: 0
-  fadeOutTimer: 0
-  delayToPlay: 0
 --- !u!1 &989034852
 GameObject:
   m_ObjectHideFlags: 0
@@ -2337,6 +2433,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989034852}
   m_CullTransparentMesh: 1
+--- !u!114 &1009779237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 951ca669fddd5d246b185a77eb4a317f, type: 3}
+  name: click
+  track: 1
+  loop: 0
+  fadeIn: 0
+  timeToFadeIn: 0
+  controllerFadeIn: 0
+  fadeOut: 0
+  timeToFadeOut: 0
+  _3D: 0
+  v3Target: {x: 0, y: 0, z: 0}
+  tTarget: {fileID: 0}
+  followObject: 0
+  trigger: 0
+  stream: 0
+  targetForTrigger: {fileID: 0}
+  functionForTrigger: 
+  timeToTrigger: -50
+  timeInEditor: 0
+  isP: 0
+  language: 
+  allLenguages: []
+  languageIndexHolder: 0
+  URL: 
+  nameInResourceFolder: 
+  isStreamSound: 0
+  isResourceSound: 0
+  currentSource: {fileID: 0}
+  isPreviwing: 0
+  pauseEffect: 0
+  showCarac: 0
+  canShootEvent: 0
+  stopAt: 0
+  controllerFadeOut: 0
+  fadeOutTimer: 0
+  delayToPlay: 0
 --- !u!1 &1231614477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2520,11 +2664,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AllSoundsHolder:
-  - {fileID: 498414210}
-  - {fileID: 1473071525}
-  - {fileID: 1426663344}
-  - {fileID: 254542296}
-  - {fileID: 942202783}
+  - {fileID: 1009779237}
+  - {fileID: 2023679301}
+  - {fileID: 1616255695}
+  - {fileID: 408419867}
+  - {fileID: 146377329}
+  - {fileID: 1896692643}
+  - {fileID: 613129792}
+  - {fileID: 471519462}
+  - {fileID: 122637986}
   AllStreamSoundsHolder: []
   AllResourceSoundsHolder: []
   AllLanguages: []
@@ -2769,7 +2917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.94509804}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.98039216}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
@@ -2926,54 +3074,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1426663344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: ed09f9a99aae44442aee7c3c5a9b31d1, type: 3}
-  name: Die
-  track: 1
-  loop: 0
-  fadeIn: 0
-  timeToFadeIn: 0
-  controllerFadeIn: 0
-  fadeOut: 0
-  timeToFadeOut: 0
-  _3D: 0
-  v3Target: {x: 0, y: 0, z: 0}
-  tTarget: {fileID: 0}
-  followObject: 0
-  trigger: 0
-  stream: 0
-  targetForTrigger: {fileID: 0}
-  functionForTrigger: 
-  timeToTrigger: -50
-  timeInEditor: 0
-  isP: 0
-  language: 
-  allLenguages: []
-  languageIndexHolder: 0
-  URL: 
-  nameInResourceFolder: 
-  isStreamSound: 0
-  isResourceSound: 0
-  currentSource: {fileID: 0}
-  isPreviwing: 0
-  pauseEffect: 0
-  showCarac: 0
-  canShootEvent: 0
-  stopAt: 0
-  controllerFadeOut: 0
-  fadeOutTimer: 0
-  delayToPlay: 0
 --- !u!1 &1430326561
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,54 +3142,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1473071525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 85d73de148d43ec4ea823647d7b621e8, type: 3}
-  name: ButtonSelect
-  track: 1
-  loop: 0
-  fadeIn: 0
-  timeToFadeIn: 0
-  controllerFadeIn: 0
-  fadeOut: 1
-  timeToFadeOut: 0.1
-  _3D: 0
-  v3Target: {x: 0, y: 0, z: 0}
-  tTarget: {fileID: 0}
-  followObject: 0
-  trigger: 0
-  stream: 0
-  targetForTrigger: {fileID: 0}
-  functionForTrigger: 
-  timeToTrigger: -50
-  timeInEditor: 0
-  isP: 0
-  language: 
-  allLenguages: []
-  languageIndexHolder: 0
-  URL: 
-  nameInResourceFolder: 
-  isStreamSound: 0
-  isResourceSound: 0
-  currentSource: {fileID: 0}
-  isPreviwing: 0
-  pauseEffect: 0
-  showCarac: 0
-  canShootEvent: 0
-  stopAt: 0
-  controllerFadeOut: 0
-  fadeOutTimer: 0
-  delayToPlay: 0
 --- !u!1 &1591086490
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,6 +3469,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596385881}
   m_CullTransparentMesh: 1
+--- !u!114 &1616255695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: bb5d36231dc7b5640bf70bd0081036b7, type: 3}
+  name: pause
+  track: 1
+  loop: 0
+  fadeIn: 0
+  timeToFadeIn: 0
+  controllerFadeIn: 0
+  fadeOut: 0
+  timeToFadeOut: 0
+  _3D: 0
+  v3Target: {x: 0, y: 0, z: 0}
+  tTarget: {fileID: 0}
+  followObject: 0
+  trigger: 0
+  stream: 0
+  targetForTrigger: {fileID: 0}
+  functionForTrigger: 
+  timeToTrigger: -50
+  timeInEditor: 0
+  isP: 0
+  language: 
+  allLenguages: []
+  languageIndexHolder: 0
+  URL: 
+  nameInResourceFolder: 
+  isStreamSound: 0
+  isResourceSound: 0
+  currentSource: {fileID: 0}
+  isPreviwing: 0
+  pauseEffect: 0
+  showCarac: 0
+  canShootEvent: 0
+  stopAt: 0
+  controllerFadeOut: 0
+  fadeOutTimer: 0
+  delayToPlay: 0
 --- !u!1 &1701399822
 GameObject:
   m_ObjectHideFlags: 0
@@ -4041,6 +4141,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859755173}
   m_CullTransparentMesh: 1
+--- !u!114 &1896692643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: feb3baa126b1e7a4d95db2fac63ddfc2, type: 3}
+  name: bg
+  track: 0
+  loop: 0
+  fadeIn: 0
+  timeToFadeIn: 0
+  controllerFadeIn: 0
+  fadeOut: 0
+  timeToFadeOut: 0
+  _3D: 0
+  v3Target: {x: 0, y: 0, z: 0}
+  tTarget: {fileID: 0}
+  followObject: 0
+  trigger: 0
+  stream: 0
+  targetForTrigger: {fileID: 0}
+  functionForTrigger: 
+  timeToTrigger: -50
+  timeInEditor: 0
+  isP: 0
+  language: 
+  allLenguages: []
+  languageIndexHolder: 0
+  URL: 
+  nameInResourceFolder: 
+  isStreamSound: 0
+  isResourceSound: 0
+  currentSource: {fileID: 0}
+  isPreviwing: 0
+  pauseEffect: 0
+  showCarac: 0
+  canShootEvent: 0
+  stopAt: 0
+  controllerFadeOut: 0
+  fadeOutTimer: 0
+  delayToPlay: 0
 --- !u!1 &1946024778
 GameObject:
   m_ObjectHideFlags: 0
@@ -4091,7 +4239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.9137255}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.98039216}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
@@ -4333,6 +4481,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2015927923}
   m_CullTransparentMesh: 1
+--- !u!114 &2023679301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e5d574f53539043bae8b5b75fb3cd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 5d37544fca5d25647813ab9f6da021f3, type: 3}
+  name: buy
+  track: 1
+  loop: 0
+  fadeIn: 0
+  timeToFadeIn: 0
+  controllerFadeIn: 0
+  fadeOut: 0
+  timeToFadeOut: 0
+  _3D: 0
+  v3Target: {x: 0, y: 0, z: 0}
+  tTarget: {fileID: 0}
+  followObject: 0
+  trigger: 0
+  stream: 0
+  targetForTrigger: {fileID: 0}
+  functionForTrigger: 
+  timeToTrigger: -50
+  timeInEditor: 0
+  isP: 0
+  language: 
+  allLenguages: []
+  languageIndexHolder: 0
+  URL: 
+  nameInResourceFolder: 
+  isStreamSound: 0
+  isResourceSound: 0
+  currentSource: {fileID: 0}
+  isPreviwing: 0
+  pauseEffect: 0
+  showCarac: 0
+  canShootEvent: 0
+  stopAt: 0
+  controllerFadeOut: 0
+  fadeOutTimer: 0
+  delayToPlay: 0
 --- !u!1 &2053528322
 GameObject:
   m_ObjectHideFlags: 0

@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
             instance = this;
         }
         DontDestroyOnLoad(this.gameObject);
-        
         SceneManager.sceneLoaded += setupForNewScene;
         if(uIManager == null) return;
             
@@ -57,20 +56,21 @@ public class GameManager : MonoBehaviour
     }
 
     public void Restart(){
-        goldManager.SaveGold();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        Debug.Log("Restart");
+        LoadScene(SceneManager.GetActiveScene().name);
     }
 
 
     
     public void Home(){
-        goldManager.SaveGold();
-        SceneManager.LoadScene("Home");
+        LoadScene("Home");
     }
 
     public void LoadScene(string sceneName){
-        goldManager.LoadGold();
+        SoundManager.StopAllSounds();
+        if(sceneName == "Home") SoundManager.Play("bg");
+        if(sceneName == "scene_0") SoundManager.Play("gameplay");
         SceneManager.LoadScene(sceneName);
+        if (uIManager == null) return;
+        goldManager.LoadGold();
     }
 }
