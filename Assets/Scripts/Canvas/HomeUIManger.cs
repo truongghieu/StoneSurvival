@@ -49,7 +49,7 @@ public class HomeUIManger : MonoBehaviour
     {
         GoldText.text = PlayerPrefs.GetInt("gold",0).ToString();
         SoundVolumeSlider.value = PlayerPrefs.GetFloat("SoundVolume",1);
-        SoundSetupButton.onClick.AddListener(() =>{SoundManager.Play("ButtonSelect");});
+        SoundSetupButton.onClick.AddListener(() =>{SoundManager.Play("click");});
         PlayGameButton.onClick.AddListener(() => {SoundManager.Play("ButtonSelect");});
         UpgradeButton.onClick.AddListener(() => {SoundManager.Play("ButtonSelect");});
         ExitButtonSound.onClick.AddListener(() => {SoundManager.Play("ButtonSelect");});
