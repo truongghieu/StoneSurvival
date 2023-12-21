@@ -57,7 +57,7 @@ public class HomeUIManger : MonoBehaviour
         AcceptUpgradeButton.onClick.AddListener(() => {SoundManager.Play("buy");});
         LeftButton.onClick.AddListener(() => {SoundManager.Play("click");});
         RightButton.onClick.AddListener(() => {SoundManager.Play("click");});
-        AcceptUpgradeButton.onClick.AddListener(OnAcceptUpgradeButtonClicked);
+        AcceptUpgradeButton.onClick.AddListener(() => {OnAcceptUpgradeButtonClicked(); GoldText.text = PlayerPrefs.GetInt("gold",0).ToString();});
         LeftButton.onClick.AddListener(OnLeftButtonClicked);
         RightButton.onClick.AddListener(OnRightButtonClicked);
         UpgradeButton.onClick.AddListener(OnUpgradePannelOpen);
