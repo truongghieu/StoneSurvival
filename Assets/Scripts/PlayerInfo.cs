@@ -24,7 +24,7 @@ public class PlayerInfo : MonoBehaviour,ILevel
     void Start()
     {
         health = 100;
-        speed = 400;
+        speed = 200;
         money = PlayerPrefs.GetInt("gold", 0);
         int levelHealth = PlayerPrefs.GetInt("health",0);
         int levelResilience = PlayerPrefs.GetInt("resilience",0);
@@ -36,6 +36,7 @@ public class PlayerInfo : MonoBehaviour,ILevel
 
         health += levelHealth * 10;
         speed += levelSpeed * 10;
+        gameObject.GetComponent<Movement>().speed = speed;
         // UIManager.instance.UpdateHealth(health);   
     }
 
@@ -72,7 +73,7 @@ public class PlayerInfo : MonoBehaviour,ILevel
 
     public void ResetPlayerInfo(){
         health = 100;
-        speed = 300;
+        speed = 200;
         money = PlayerPrefs.GetInt("gold", 0);
         OnPlayerReset?.Invoke(health);
     }

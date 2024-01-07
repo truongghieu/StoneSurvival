@@ -44,7 +44,7 @@ public class UIManager : MonoBehaviour
 
 
     PlayerUpgrade playerUpgrade = new PlayerUpgrade();
-
+    
 
     [Header("Game Pause Panel")]
     [SerializeField] private GameObject pausePanel;
@@ -142,8 +142,17 @@ public class UIManager : MonoBehaviour
     public void LevelUpgradeHandler(object parameter){
         Time.timeScale = 0;
         a = UnityEngine.Random.Range(0,8);
+        // random b != a
         b = UnityEngine.Random.Range(0,8);
+        while(b == a){
+            b = UnityEngine.Random.Range(0,8);
+        }
+        // random c != a,b
         c = UnityEngine.Random.Range(0,8);
+        while(c == a || c == b){
+            c = UnityEngine.Random.Range(0,8);
+        }
+        
         textUpdate_1.text = playerUpgrade.GenerateText(a);
         textUpdate_2.text = playerUpgrade.GenerateText(b);
         textUpdate_3.text = playerUpgrade.GenerateText(c);

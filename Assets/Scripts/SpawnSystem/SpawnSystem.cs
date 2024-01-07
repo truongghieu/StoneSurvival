@@ -69,7 +69,18 @@ public class SpawnSystem : MonoBehaviour
 
             OnSpawnStart?.Invoke();
             // Sound play
-            SoundManager.Play("waveSpawn");
+            // SoundManager.Play("waveSpawn");
+            // try to play sound
+            try
+            {
+                SoundManager.Play("waveSpawn");
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
+            }
+
             for (int j = 0; j < roundConfig.waveQuantity; j++)
             {
                 SpawnEnemy(roundConfig.typeOfEnemy);
@@ -80,8 +91,15 @@ public class SpawnSystem : MonoBehaviour
                 SpawnEnemy(roundConfig.bossType);
                 yield return new WaitForSeconds(roundConfig.timeBetweenSpawn * 2);
             }
+            
 
             round++;
+        }
+        if(round >= spawnRoundConfigs.Length){
+            while(true){
+                yield return new WaitForSeconds(0.1f);
+                SpawnEnemy(GameObjectsToSpawn.Count - 1);
+            }
         }
     }
 
